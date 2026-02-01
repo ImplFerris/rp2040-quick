@@ -48,20 +48,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "base"
-version = "0.1.0"
-dependencies = [
- "cortex-m",
- "cortex-m-rt",
- "defmt",
- "defmt-rtt",
- "embassy-executor",
- "embassy-rp",
- "embassy-time",
- "panic-probe",
-]
-
-[[package]]
 name = "bit-set"
 version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1020,6 +1006,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7c92f344f63f950ee36cf4080050e4dce850839b9175da38f9d2ffb69b4dbb21"
 dependencies = [
  "crc-any",
+]
+
+[[package]]
+name = "rp2040-quick"
+version = "0.1.0"
+dependencies = [
+ "cortex-m",
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "embassy-executor",
+ "embassy-rp",
+ "embassy-time",
+ "panic-probe",
 ]
 
 [[package]]
